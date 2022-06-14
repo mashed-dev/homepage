@@ -7,6 +7,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@stitches/react": "^1.2.8",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -19,7 +20,8 @@
     "next": "12.1.6",
     "prettier": "^2.7.0",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "utility-types": "^3.10.0"
   },
   "devDependencies": {
     "@types/node": "17.0.42",

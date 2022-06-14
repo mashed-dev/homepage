@@ -1,8 +1,8 @@
 import { styled } from '@/stitches';
+import { Flex } from '@/shared/components';
 import { CodeLink } from '@/shared/pages/index';
 
-const Wrapper = styled('div', {
-  display: 'flex',
+const Wrapper = styled(Flex, {
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',

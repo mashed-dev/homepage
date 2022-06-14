@@ -15,7 +15,6 @@ const Wrapper = styled('div', {
 const Home = () => (
   <Wrapper>
     <CodeLink />
-    Test
   </Wrapper>
 );
 

@@ -1,7 +1,13 @@
+import { Assign } from 'utility-types';
 import NextImage from 'next/image';
 
-type Props = React.ComponentProps<typeof NextImage>;
+type Props = Assign<
+  React.ComponentProps<typeof NextImage>,
+  {
+    src?: string;
+  }
+>;
 
-const Link = ({ ...props }: Props) => <NextImage {...props} />;
+const Link = ({ src, ...props }: Props) => <NextImage src={src ?? ''} {...props} />;
 
 export default Link;

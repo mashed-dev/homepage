@@ -1,6 +1,6 @@
 import { styled } from '@/stitches';
 import { Flex } from '@/shared/components';
-import { CodeLink } from '@/shared/pages/index';
+import { CodeLink, Logo } from '@/shared/pages/index';
 
 const Wrapper = styled(Flex, {
   flexDirection: 'column',
@@ -15,6 +15,7 @@ const Wrapper = styled(Flex, {
 const Home = () => (
   <Wrapper>
     <CodeLink />
+    <Logo />
   </Wrapper>
 );
 

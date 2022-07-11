@@ -7,6 +7,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mdx-js/loader": "^2.1.2",
+    "@next/mdx": "^12.2.2",
     "@stitches/react": "^1.2.8",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",

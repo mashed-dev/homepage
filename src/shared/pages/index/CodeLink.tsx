@@ -8,7 +8,7 @@ const CodeLink = ({ ...props }: React.ComponentProps<typeof Link>) => (
       right: '0',
       width: '$5',
       height: '$5',
-      background: 'linear-gradient(45deg, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%), url("/code.jpg") center/cover',
+      background: 'linear-gradient(45deg, #000000 50%, rgba(0, 0, 0, 0) 100%), url("/code.jpg") center/cover',
     }}
     href="https://github.dev/mashed-dev/homepage/blob/main/src/pages/index.tsx"
     target="_blank"
@@ -22,9 +22,7 @@ const CodeLink = ({ ...props }: React.ComponentProps<typeof Link>) => (
         right: '0',
         height: '$2',
         width: '$2',
-        background: 'linear-gradient(45deg, rgba(255, 255, 255, 1) 40%, rgba(0, 0, 0, 1) 60%)',
-        boxShadow: '0 0 10px 10px #000000',
-        transition: 'transform 0.2s ease-in-out',
+        background: 'linear-gradient(45deg, #ffffff 10%, #000000 50%)',
       }}
     />
   </Link>
